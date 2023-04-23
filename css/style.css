@@ -1,0 +1,575 @@
+.header-search-btn {
+  margin-right: 24rem;
+  background-color: yellowgreen;
+  color: black;
+  /* margin-top: 1rem;
+  margin-bottom: 1rem; */
+}
+
+.header-login-btn {
+  background-color: yellowgreen;
+  color: black;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  margin-right: 1rem;
+}
+
+.header-cart-icon {
+  margin-right: 2rem;
+  margin-left: 2rem;
+  /* margin-bottom: 1rem */
+  padding-top: 20px;
+}
+
+
+.header-form-control {
+  width: 26rem;
+  border-radius: 0 10px 0 10px;
+}
+
+
+.nav-div {
+  height: auto;
+}
+
+.b {
+  min-width: 10rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  font-family: 'Satisfy', cursive;
+  color: yellow;
+
+  letter-spacing: 3px;
+
+
+  width: 15%;
+}
+
+
+
+.bn {
+  display: flex;
+  justify-content: center;
+}
+
+
+
+
+/* sm */
+@media (max-width : 600px) {
+
+  .header-cart-icon {
+    margin-left: 0px;
+    margin-top: -25px;
+  }
+
+  .b {
+    margin-left: 0px;
+  }
+
+  .header-form-control {
+    width: 22rem;
+    min-width: 22rem;
+  }
+
+  .cover-image {
+    height: 20vh;
+    width: 20vw;
+  }
+
+
+ 
+
+
+  #carousel-lg {
+    display: none;
+  }
+
+  #carousel-md {
+    display: none;
+  }
+
+  .cr {
+    margin-top: 70px;
+    position: relative;
+    /* margin-bottom: 100px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* padding-left:20px;
+    padding-right: 3px; */
+  }
+
+  .e-tl {
+    margin-top: 150px;
+    color: white;
+    background-color: black;
+    border-radius: 0 10px 0 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    position: absolute;
+    font-size: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+
+  .lgc .card{
+
+    width: 18rem;
+
+  }
+
+
+
+ 
+
+  .pi3{
+    width: inherit;
+    height: 350px;
+    
+    
+  }
+ 
+
+  .pi{
+    width: inherit;
+    height: 350px;
+    /* necessary for single carsousel in small device */
+    
+  }
+
+  
+}
+
+@media (min-width : 1100px) {
+
+  .header-cart-icon {
+    margin-left: 0px;
+    margin-top: -10px;
+  }
+
+  .cuimg{
+    width: 100%;
+    height: 366px;
+    object-fit:cover;
+  }
+
+  .b {
+    margin-left: 0px;
+  }
+
+  .header-form-control {
+    width: 22rem;
+    min-width: 22rem;
+  }
+
+  /* .cover-image {
+    height: 20vh;
+    width: 20vw;
+    
+  } */
+
+  .e-tl {
+    margin-top: 150px;
+    color: white;
+    background-color: black;
+    border-radius: 0 10px 0 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    position: absolute;
+    font-size: 1rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+
+ 
+
+
+  
+
+  /* .cr {
+    margin-top: 70px;
+    position: relative;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+  } */
+
+ 
+
+
+ 
+
+  /* .pi{
+    width: inherit;
+    height: 350px;
+  } */
+}
+
+
+
+
+/* 
+@media (max-width:1100){
+
+  #carousel-lg{
+
+    display: none;
+
+  }
+  #carousel-sm{
+    display: none;
+  }
+} */
+
+
+
+
+
+
+
+
+.e-l {
+
+  font-size: 5rem;
+  font-family: 'Satisfy', cursive;
+  -webkit-text-stroke: 1px rgb(0, 0, 0);
+  letter-spacing: 3px;
+  text-shadow: 5px 7px  red;
+
+
+}
+
+
+
+.cover-image {
+  height: 40vh;
+  width: auto;
+  background-color: aqua;
+  background-image: url(../images/bg5.jpg);
+  background-size: 100%;
+  display: flex;
+  color: yellow;
+  align-items: center;
+  justify-content: center;
+
+}
+
+/* .e-tl {
+  color: white;
+  background-color: black;
+  border-radius: 0 10px 0 10px;
+  padding-left: 5px;
+  padding-right: 5px;
+} */
+
+
+
+
+/* lg */
+@media (min-width : 1409px) {
+
+  .e-l {
+
+    font-family: 'Satisfy', cursive;
+    font-size: 10rem;
+    position: absolute;
+    color: yellow;
+    -webkit-text-stroke: 4px rgb(0, 0, 0);
+    letter-spacing: 7px;
+
+
+  }
+
+  .lgc .card{
+
+    width: 30rem;
+
+  }
+
+  .ch{
+    margin: 20px 20px;
+  }
+
+  .e-tl {
+    margin-top: 150px;
+    color: white;
+    background-color: black;
+    border-radius: 0 10px 0 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    position: absolute;
+    font-size: 1rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+
+
+  #carousel-md{
+    display: none;
+  }
+
+  #carousel-sm{
+    display: none;
+  }
+
+  .cover-image {
+    height: 80vh;
+    width: auto;
+    background-position: center;
+    background-image: url(../images/bg5.jpg);
+    background-size: 100%;
+    object-fit: cover;
+    background-color: aqua;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
+
+  }
+
+  .cr {
+    margin-top: 100px;
+    position: relative;
+    /* margin-bottom: 100px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* padding-left:20px;
+    padding-right: 3px; */
+  }
+
+
+  .pi3{
+    width: inherit;
+    height: 350px;
+    
+    
+  }
+
+  
+
+
+
+
+}
+
+
+
+.nav-2:hover {
+  background-color: antiquewhite;
+}
+
+
+
+
+
+/* .e-tl {
+  margin-top: 150px;
+  color: white;
+  background-color: black;
+  border-radius: 0 10px 0 10px;
+  padding-left: 5px;
+  padding-right: 5px;
+  position: absolute;
+  font-size: 1rem;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+} */
+
+.featured-products {
+  position: relative;
+  height: auto;
+  width: auto;
+
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+
+
+}
+
+.fph {
+  width: inherit;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 25px;
+  /* box-shadow: 0 1px 20px 0 rgba(0,0,0,0.2); */
+  text-shadow: 1px 1px rgb(213, 205, 205);
+
+  color: rgb(0, 0, 0);
+}
+
+.cimg {
+  width: 100vw;
+  height: 75vh;
+}
+
+
+
+/* .test{
+
+  display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(290px, 1fr));
+} */
+
+.card {
+  margin: auto auto;
+  margin-top: 20px;
+  box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.9);
+  /* background-color: rgba(0,0,0,0.2); */
+  transition: 0.3s;
+  /* box-shadow: 10px 10px lightblue; */
+}
+
+.fr {
+  padding: 80px;
+
+
+}
+
+.footer-div {
+  /* display: flex;
+  align-items: center;
+  justify-content: center; */
+  color: white;
+  padding: 20px 20px;
+  margin-right: 0;
+
+}
+
+.footer-div a:hover {
+  color: blue
+}
+
+.footer-div a {
+  color: white
+}
+
+a:link {
+  text-decoration: none;
+}
+
+
+
+
+
+.c-b{
+  margin-bottom: 10px;
+  background-color: yellowgreen;
+}
+
+.apd{
+  display: grid;
+  grid-template-columns: repeat(auto-fill,minmax(250px,1fr));
+  /* padding: 40px 40px; */
+  padding-bottom: 20px;
+
+}
+
+.ap{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left : 20px;
+  margin-right : 20px;
+  margin-bottom: 40px;
+}
+
+
+
+/* md */
+@media only screen and (min-width: 600px) and (max-width:1408px) {
+  
+
+  #carousel-lg{
+    display: none;
+  }
+
+  #carousel-sm{
+    display: none;
+  }
+
+  .lgc .card{
+
+    width: 28rem;
+
+  }
+
+  .cuimg{
+    width: 100%;
+    height: 366px;
+    object-fit:cover;
+  }
+
+  .pi3{
+    width: inherit;
+    height: 350px;
+    
+    
+  }
+
+  .e-tl {
+    margin-top: 150px;
+    color: white;
+    background-color: black;
+    border-radius: 0 10px 0 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    position: absolute;
+    font-size: 1rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+
+  .cover-image {
+    height: 60vh;
+    width: auto;
+    background-color: aqua;
+    background-image: url(../images/bg5.jpg);
+    background-size: 100%;
+    display: flex;
+    color: yellow;
+    align-items: center;
+    justify-content: center;
+  
+  }
+}
+
+
+
+.login-container{
+  /* background-color: bisque; */
+  /* height: 100vh; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  /* padding: 2% 2%; */
+  padding-bottom: 10px;
+}
+
+.login-heading{
+  text-align: center;
+}
+
+.lgup{
+  width: 100%;
+}
+
+.lgc{
+  margin-bottom: 3%;
+  /* margin-top: 10%; */
+}
+
+.l-b{
+  width: 100%;
+}
+
+.mb-3{
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
