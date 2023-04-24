@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Cart</title>
+    <link
+      rel="stylesheet"
+      href="	https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.6.4.js"
+      integrity="sha256-a9jBBRygX1Bh5lt8GZjXDzyOB+bWve9EiO7tROUtj/E="
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <script src="	https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script/include-header-footer.js"></script>
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+<body onload="hf()">
+    <div id="header"></div>
+
+    <div class="conatiner-fluid row cmd">
+        <div class="col-md-auto">
+            <div class="card cart-cards d-block" style="width:auto">
+                
+                <div class="card-body">
+                    <div class="card-header text-center">
+                        <h2>Items in cart</h2>
+                    </div>
+                   
+                    <div class="row">
+
+                        <div class="col-md-auto">
+                            <div class="card cart-cards cart-image d-block" style="width: 15rem;">
+                                
+                            </div>
+                        </div>
+                        
+                        
+                        <div class="col-md-auto">
+                            <div class="card cart-cards d-block" style="width: 15rem;">
+                                <div class="card-body text-center">
+                                    <div class="card-title"><h5>Product 2</h5></div>
+                                    <div>15$</div>
+    
+                                    
+                                    <div class="cpm"><button class="btn btn-warning btn-outline-success"> <i class="fa-solid fa-trash-can"></i></button></div>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-auto ">
+                            <div class=" card cart-cards plus " style="width: 15rem;">
+
+                                
+                                <div class="card-body text-left">
+                                    <span style="display: inline;"></span>
+                                 
+
+                                </div>
+
+                                <div class="cart-plus-minus">
+                                    <div class="cpm"><button class="btn btn-warning btn-outline-success"> <i class="fa-sharp fa-solid fa-minus"></i></button></div>
+                                    
+                                    <div  class=""><input class="form-control  cart-input" type="text"></div>
+                                    <div class="cpm"><button class="btn btn-warning btn-outline-success"> <i class="fa-sharp fa-solid fa-plus"></i></button></div>
+                                </div>
+                                   
+                            </div>
+                        </div>
+
+                        
+
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        
+
+
+        <div class="col-md-auto text-center">
+            <div class="card cs cart-cards d-block" style="width:20rem">
+                <div class="card-body">
+                    <div class="card-header"><h2>Summary</h2></div>
+                  
+                   
+
+                    <table class="table text-center">
+                        <thead>
+
+                        </thead>
+
+                        <tbody>
+                            <tr class="p-3">
+                                <td><p style="text-align: left;">Cost</p></td>
+                                <td style="text-align: right;">15$</td>
+                            </tr>
+                            <tr>
+                                <td><p style="text-align: left;">Shipping</p></td>
+                                <td style="text-align: right;">5$</td>
+                            </tr>
+
+                            <tr >
+                                <td style="border-bottom:none"><p class="total" style="text-align: left;font-weight:bold;">Total</p></td>
+                                <td style="font-weight: bold; border-bottom:none; text-align: right;">20$</td>
+                            </tr>
+
+                        
+                        </tbody>
+                    </table>
+
+                    <a  href="login.html"><button style="width:50%" class="btn btn-outline-success header-login-btn navbar-text" type="button">
+                        Checkout
+                      </button></a>
+                   
+
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+
+
+
+
+
+    <div id="footer"></div>
+</body>
+</html>

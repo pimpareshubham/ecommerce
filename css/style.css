@@ -22,6 +22,8 @@
 }
 
 
+
+
 .header-form-control {
   width: 26rem;
   border-radius: 0 10px 0 10px;
@@ -572,4 +574,66 @@ a:link {
 .mb-3{
   margin-top: 1%;
   margin-bottom: 1%;
+}
+
+
+.cmd{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 100px;
+  margin-top: 50px;
+  
+  
+}
+
+.cart-image{
+  /* height:200px; */
+  
+  /* object-fit: cover; */
+  
+
+  background-image: url(../images/products/p1.webp);
+  object-fit: cover;
+  background-size: 100%;
+ 
+
+}
+
+.cart-cards{
+  min-height:300px;
+  
+}
+
+.cart-input{
+  width: 100%;
+  margin-top: 10px;
+}
+
+.cart-plus-minus{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  position: absolute;
+  
+  top:0;
+}
+
+.cpm{
+
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
+
+}
+
+.cmd .card{
+
+  box-shadow: none;
+  border: none;
+
+}
+
+.cs{
+  padding-bottom: 63px;
 }
