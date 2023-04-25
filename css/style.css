@@ -10,15 +10,13 @@
   background-color: yellowgreen;
   color: black;
   margin-top: 1rem;
-  margin-bottom: 1rem;
   margin-right: 1rem;
 }
 
 .header-cart-icon {
-  margin-right: 2rem;
-  margin-left: 2rem;
-  /* margin-bottom: 1rem */
-  padding-top: 20px;
+  
+  padding-right: 10px;
+  padding-left: 10px;
 }
 
 
@@ -62,7 +60,7 @@
 
   .header-cart-icon {
     margin-left: 0px;
-    margin-top: -25px;
+    margin-top: -50px;
   }
 
   .b {
@@ -146,7 +144,7 @@
 
   .header-cart-icon {
     margin-left: 0px;
-    margin-top: -10px;
+    margin-top: 0px;
   }
 
   .cuimg{
@@ -636,4 +634,9 @@ a:link {
 
 .cs{
   padding-bottom: 63px;
+}
+
+.apcb{
+  margin-bottom: 15px;
+  
 }
