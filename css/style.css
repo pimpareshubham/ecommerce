@@ -14,7 +14,7 @@
 }
 
 .header-cart-icon {
-  
+
   padding-right: 10px;
   padding-left: 10px;
 }
@@ -50,8 +50,17 @@
 .bn {
   display: flex;
   justify-content: center;
+  margin-bottom: 0px;
+
+}
+
+.new-contact{
+
+  width: inherit;
+  margin: 0;
+  display: flex;
+  justify-content: center;
   margin-bottom: -10px;
-  
 }
 
 
@@ -63,15 +72,25 @@
   .header-cart-icon {
     margin-left: 0;
     margin-top: 0px;
-   
+
   }
 
-  .ch{
+  .header-contact{
+    display: none;
+  }
+
+  
+
+  .ap{
+    margin: auto;
+  }
+
+  .ch {
     margin-top: 30px;
     margin-bottom: -15px;
   }
 
-  
+
 
 
 
@@ -81,8 +100,8 @@
   .b {
     /* margin-left: 1.9rem; */
     -webkit-text-stroke: 1px rgb(0, 0, 0);
-    text-shadow: 1px 2px  red;
-  
+    text-shadow: 1px 2px red;
+
   }
 
   .header-form-control {
@@ -98,20 +117,20 @@
   }
 
 
-  .e-l{
-  font-size: 5rem;
-  font-family: 'Satisfy', cursive;
-  -webkit-text-stroke: 2px rgb(0, 0, 0);
-  letter-spacing: 3px;
-  padding: 20px;
-  text-shadow: 3px 5px  red;
-  transition: box-shadow 0.5s ease;
-  border-radius: 15px;
+  .e-l {
+    font-size: 5rem;
+    font-family: 'Satisfy', cursive;
+    -webkit-text-stroke: 2px rgb(0, 0, 0);
+    letter-spacing: 3px;
+    padding: 20px;
+    text-shadow: 3px 5px red;
+    transition: box-shadow 0.5s ease;
+    border-radius: 15px;
   }
- 
 
 
- 
+
+
 
 
   #carousel-lg {
@@ -128,7 +147,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-  
+
   }
 
   .e-tl {
@@ -142,10 +161,10 @@
     font-size: 10px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     box-shadow: 15px 15px 20px 15px rgba(0, 0, 0, 0.4);
-    
+
   }
 
-  .lgc .card{
+  .lgc .card {
 
     width: 18rem;
 
@@ -153,24 +172,24 @@
 
 
 
- 
 
-  .pi3{
+
+  .pi3 {
     width: inherit;
     height: 300px;
-    
-    
-  }
- 
 
-  .pi{
+
+  }
+
+
+  .pi {
     width: inherit;
     height: 300px;
     /* necessary for single carsousel in small device */
-    
+
   }
 
-  
+
 }
 
 
@@ -183,7 +202,7 @@
 
 
 
-.e-l:hover{
+.e-l:hover {
   border-radius: 15px;
   box-shadow: 10px 15px 20px 10px rgba(0, 0, 0, 0.4);
   transition: 1000ms;
@@ -193,7 +212,7 @@
 
 
 
-.header{
+.header {
   box-shadow: 10px 10px 15px 5px rgba(0, 0, 0, 0.1);
 }
 
@@ -232,45 +251,68 @@
     font-size: 10rem;
     position: absolute;
     color: yellow;
-    text-shadow: 5px 7px  red;
+    text-shadow: 5px 7px red;
     -webkit-text-stroke: 4px rgb(0, 0, 0);
     letter-spacing: 7px;
-    padding:20px;
+    padding: 20px;
     transition: box-shadow 0.5s ease;
     border-radius: 15px;
 
 
   }
 
-  .header-search-btn{
-    margin-right: 22rem;
-   
+  .new-contact{
+    display: none;
   }
+
+
+  .bn{
+    margin-bottom: -10px;
+  }
+
+  .cuimg {
+    width: 100%;
+    height: 354px;
+    object-fit: cover;
+  }
+
+  .header-search-btn {
+    margin-right: 22.5rem;
+
+  }
+
+  /* .d-flex{
+  display:flex ;
+  justify-content: center;
+  width: 100%;
+  margin-left: -120px;
+} */
 
   .b {
     /* margin-left: 1.9rem; */
     -webkit-text-stroke: 1px rgb(0, 0, 0);
-    text-shadow: 3px 1px  red;
-  
+    text-shadow: 3px 1px red;
+    margin-left: 10px;
+
   }
 
-  #header .header-login-btn{
+  #header .header-login-btn {
     margin-bottom: 16px;
     margin-left: -10px;
-   
+
   }
 
-  .cs{
-  padding-bottom: 62px;
-}
+  .cs {
+    padding-bottom: 76px;
+  }
 
-  .lgc .card{
+  .lgc .card {
 
     width: 30rem;
 
   }
 
-  .ch{
+  .ch {
     margin-top: 30px;
     margin-bottom: -15px;
   }
@@ -289,11 +331,11 @@
   }
 
 
-  #carousel-md{
+  #carousel-md {
     display: none;
   }
 
-  #carousel-sm{
+  #carousel-sm {
     display: none;
   }
 
@@ -309,7 +351,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    
+
 
 
   }
@@ -326,17 +368,16 @@
   }
 
 
-  .pi3{
+  .pi3 {
     width: inherit;
     height: 350px;
-    
-    
+
+
   }
 
-  
-
-
-
+  .dropdown:hover .dropdown-menu{
+    display: block;
+  }
 
 }
 
@@ -344,7 +385,7 @@
 /* nav2 hover */
 .nav-2:hover {
   background-color: rgb(196, 227, 104);
- 
+
   box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0.1);
   transition: 100ms;
   border-radius: 10px;
@@ -418,7 +459,7 @@
   /* box-shadow: 10px 10px lightblue; */
 }
 
-.card:hover{
+.card:hover {
   box-shadow: 15px 15px 20px 5px rgba(0, 0, 0, 0.4);
 }
 
@@ -454,114 +495,128 @@ a:link {
 
 
 
-.c-b{
+.c-b {
   margin-bottom: 10px;
   background-color: yellowgreen;
 }
 
-.apd{
+.apd {
   display: grid;
-  grid-template-columns: repeat(auto-fill,minmax(250px,1fr));
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
   /* padding: 40px 40px; */
   padding-bottom: 20px;
 
 }
 
-.ap{
+.ap {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding-left : 20px;
-  padding-right : 20px;
+  padding-left: 20px;
+  padding-right: 20px;
   padding-bottom: 40px;
   width: 100%;
-  
+
 }
 
 
 
 /* md */
-@media only screen and (min-width: 600px) and (max-width:1408px) {
-  
+@media only screen and (min-width: 600px) and (max-width:990px) {
 
-  #carousel-lg{
+
+  #carousel-lg {
     display: none;
   }
 
-  #carousel-sm{
+  #carousel-sm {
     display: none;
   }
 
 
 
-  .header-search-btn{
+  .header-search-btn {
     margin-left: 0px;
-    margin-right:5rem;
+    margin-right: 5rem;
   }
 
-  .header-form-control{
-    margin-left: -300px;
+  .new-contact{
+    display: none;
   }
 
-  .ch{
+  .bn{
+    margin-bottom: -10px;
+  }
+
+  .header-form-control {
+    margin-left: 0px;
+  }
+
+  .ch {
     margin-top: 30px;
     margin-bottom: -15px;
   }
 
-  .header-login-btn{
+  .header-login-btn {
     margin-bottom: 16px;
     margin-left: 0px;
   }
 
-  .header-cart-btn{
-    margin-left: -10px;
+  .header-cart-btn {
+    margin-left: 0px;
+    margin-top: -2px;
   }
-  
 
-  .e-l{
+
+  .e-l {
     font-family: 'Satisfy', cursive;
     font-size: 8rem;
     position: absolute;
     color: yellow;
-    text-shadow: 5px 7px  red;
+    text-shadow: 5px 7px red;
     -webkit-text-stroke: 4px rgb(0, 0, 0);
     letter-spacing: 7px;
     border-radius: 15px;
-    padding:20px;
+    padding: 20px;
     transition: box-shadow 0.5s ease;
   }
 
   .b {
     /* margin-left: 1.9rem; */
     -webkit-text-stroke: 1px rgb(0, 0, 0);
-    text-shadow: 3px 1px  red;
-  
+    text-shadow: 3px 1px red;
+
+
   }
 
-  .cs{
-  padding-bottom: 66px;
-}
+  .cs {
+    padding-bottom: 66px;
+  }
 
-  .lgc .card{
+
+
+
+
+  .lgc .card {
 
     width: 28rem;
 
   }
 
-  .cuimg{
+  .cuimg {
     width: 100%;
     height: 366px;
-    object-fit:cover;
+    object-fit: cover;
   }
 
-  .pi3{
+  .pi3 {
     width: inherit;
     height: 350px;
-    
-    
+
+
   }
 
-  
+
 
   .e-tl {
     margin-top: 130px;
@@ -587,13 +642,15 @@ a:link {
     align-items: center;
     justify-content: center;
     margin-top: 10px;
-  
+
   }
 }
 
 
 
-.login-container{
+
+
+.login-container {
   /* background-color: bisque; */
   /* height: 100vh; */
   display: flex;
@@ -605,74 +662,74 @@ a:link {
   padding-top: 15px;
 }
 
-.login-heading{
+.login-heading {
   text-align: center;
 }
 
-.lgup{
+.lgup {
   width: 100%;
 }
 
-.lgc{
+.lgc {
   margin-bottom: 1%;
-  
+
 }
 
-.l-b{
+.l-b {
   width: 100%;
 }
 
-.mb-3{
+.mb-3 {
   margin-top: 1%;
   margin-bottom: 1%;
 }
 
 
-.cmd{
+.cmd {
   display: flex;
-  
+
   align-items: center;
   justify-content: center;
   margin-bottom: 100px;
   margin-top: 50px;
   width: 100%;
-  
-  
+
+
 }
 
-.cart-image{
+.cart-image {
   /* height:200px; */
-  
+
   /* object-fit: cover; */
-  
+
 
   background-image: url(../images/men/p1.webp);
   object-fit: cover;
   background-size: 100%;
- 
+
 
 }
 
-.cart-cards{
-  min-height:300px;
-  
+.cart-cards {
+  min-height: 300px;
+
 }
 
-.cart-input{
+.cart-input {
   width: 100%;
   margin-top: 10px;
 }
 
-.cart-plus-minus{
+.cart-plus-minus {
   display: flex;
   text-align: center;
   justify-content: center;
   position: absolute;
-  
-  top:0;
+
+  top: 0;
 }
 
-.cpm{
+.cpm {
 
   margin-left: 10px;
   margin-right: 10px;
@@ -680,7 +737,7 @@ a:link {
 
 }
 
-.cmd .card{
+.cmd .card {
 
   box-shadow: none;
   border: none;
@@ -691,12 +748,145 @@ a:link {
   padding-bottom: 76px;
 } */
 
-.apcb{
+.apcb {
   margin-bottom: 15px;
   margin-left: 15px;
 
-  
-  
+
+
+}
+
+
+
+@media only screen and (min-width: 990px) and (max-width:1408px) {
+
+
+  #carousel-lg {
+    display: none;
+  }
+
+  #carousel-sm {
+    display: none;
+  }
+
+  .new-contact{
+    display: none;
+  }
+
+  ul.li{
+    display: none;
+  }
+
+  .d-flex{
+    display:flex ;
+    justify-content: center;
+  }
+
+
+
+
+  .bn{
+    margin-bottom: -10px;
+  }
+
+  .cover-image {
+    height: 60vh;
+    width: auto;
+    background-color: aqua;
+    background-image: url(../images/bg5.jpg);
+    background-size: 100%;
+    display: flex;
+    color: yellow;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+
+  }
+
+  .header-search-btn {
+    margin-left: 0px;
+    margin-right: 8rem;
+  }
+
+  .header-form-control {
+    margin-left: -300px;
+  }
+
+  .ch {
+    margin-top: 30px;
+    margin-bottom: -15px;
+  }
+
+  .header-login-btn {
+    margin-bottom: 16px;
+    margin-left: 0px;
+  }
+
+  .header-cart-btn {
+    margin-left: -10px;
+  }
+
+  .ap{
+    margin: auto;
+  }
+
+
+  .e-l {
+    font-family: 'Satisfy', cursive;
+    font-size: 8rem;
+    position: absolute;
+    color: yellow;
+    text-shadow: 5px 7px red;
+    -webkit-text-stroke: 4px rgb(0, 0, 0);
+    letter-spacing: 7px;
+    border-radius: 15px;
+    padding: 20px;
+    transition: box-shadow 0.5s ease;
+  }
+
+  .e-tl {
+    margin-top: 130px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.113);
+    border-radius: 0 10px 0 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    position: absolute;
+    font-size: 1rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    box-shadow: 15px 15px 20px 25px rgba(0, 0, 0, 0.4);
+  }
+
+  .b {
+    /* margin-left: 1.9rem; */
+    -webkit-text-stroke: 1px rgb(0, 0, 0);
+    text-shadow: 3px 1px red;
+
+
+  }
+
+  .cs {
+    padding-bottom: 66px;
+  }
+
+  .pi3 {
+    width: inherit;
+    height: 350px;
+
+
+  }
+
+  .cuimg {
+    width: 100%;
+    height: 366px;
+    object-fit: cover;
+  }
+
+  .lgc .card {
+
+    width: 28rem;
+
+  }
 }
 
 
